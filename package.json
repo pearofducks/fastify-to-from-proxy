@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "provides a more intuitive plugin interface for fastify-http-proxy",
   "main": "index.js",
+  "exports": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "preversion": "npm run test",
+    "version": "npm publish"
   },
   "license": "MIT",
   "author": "Dave Honneffer <pearofducks@gmail.com>",
@@ -16,5 +19,9 @@
   },
   "dependencies": {
     "fastify-plugin": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pearofducks/fastify-to-from-proxy"
   }
 }
