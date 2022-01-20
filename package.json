@@ -1,0 +1,20 @@
+{
+  "name": "fastify-to-from-proxy",
+  "version": "1.0.0",
+  "description": "provides a more intuitive plugin interface for fastify-http-proxy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test"
+  },
+  "license": "MIT",
+  "author": "Dave Honneffer <pearofducks@gmail.com>",
+  "devDependencies": {
+    "fastify": "^3.27.0",
+    "fastify-http-proxy": "^6.2.1",
+    "uvu": "^0.5.3"
+  },
+  "dependencies": {
+    "fastify-plugin": "^3.0.0"
+  }
+}
