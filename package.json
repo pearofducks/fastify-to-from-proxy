@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "provides a more intuitive plugin interface for fastify-http-proxy",
   "main": "index.js",
-  "exports": "index.js",
+  "exports": "./index.js",
   "type": "module",
   "scripts": {
     "test": "node test",
