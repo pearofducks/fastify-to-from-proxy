@@ -1,6 +1,6 @@
 {
   "name": "fastify-to-from-proxy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "provides a more intuitive plugin interface for fastify-http-proxy",
   "main": "index.js",
   "exports": "./index.js",
